@@ -1,3 +1,4 @@
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class FloorLightSwitch : MonoBehaviour
@@ -25,15 +26,21 @@ public class FloorLightSwitch : MonoBehaviour
     void Update()
     {
         float t = Mathf.PingPong(Time.time * switchSpeed, 1f);
+
+        // Smooth red-to-blue transition to match the Shader Graph
         Color currentColor = Color.Lerp(red, blue, t);
 
         if (floorLight != null)
+        {
             floorLight.color = currentColor;
+        }
 
         if (floorMaterial != null)
+        {
             floorMaterial.SetColor(
                 "_EmissionColor",
                 currentColor * emissionIntensity
             );
+        }
     }
 }
