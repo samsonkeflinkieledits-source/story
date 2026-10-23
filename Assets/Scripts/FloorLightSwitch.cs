@@ -9,7 +9,7 @@ public class FloorLightSwitch : MonoBehaviour
     public Color red = Color.red;
     public Color blue = Color.blue;
 
-    public float switchSpeed = 0.5f;
+    public float switchSpeed = 0.4f;
     public float emissionIntensity = 3f;
 
     private Material floorMaterial;

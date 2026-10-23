@@ -1993,7 +1993,7 @@ MonoBehaviour:
   floorRenderer: {fileID: 1779400715}
   red: {r: 1, g: 0, b: 0, a: 1}
   blue: {r: 0, g: 0, b: 1, a: 1}
-  switchSpeed: 1.03
+  switchSpeed: 1
   emissionIntensity: 3
 --- !u!114 &525255569
 MonoBehaviour:
@@ -2029,7 +2029,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 5
+  m_Intensity: 3
   m_Range: 15
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2091,13 +2091,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 525255567}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.066721275, y: -0.81296414, z: 0.09505873, w: 0.570615}
-  m_LocalPosition: {x: -8.5, y: 1.59, z: -25.98}
+  m_LocalRotation: {x: 0.082413256, y: -0.69981855, z: 0.08182879, w: 0.70481634}
+  m_LocalPosition: {x: -8.5, y: 5.53, z: -25.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 13.338, y: -89.592, z: 0}
 --- !u!1 &586760680
 GameObject:
   m_ObjectHideFlags: 0
